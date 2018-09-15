@@ -2,8 +2,8 @@
 # A - Z 65-90
 # a - z 97-122
 
-message = input("Enter the message: ")
-key = int(input("Enter the key between 1-26 : "))
+message = input("Enter message: ")
+key = int(input("Enter a key between 1-26 : "))
 secretMessage = ""
 
 for char in message:
